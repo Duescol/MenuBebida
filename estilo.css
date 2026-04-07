@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+#escolha {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  min-height: 32px;
+}
+
+select {
+  height: 44px;
+  width: 220px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 16px;
+  padding: 0 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+select:focus {
+  border-color: #888;
+}
